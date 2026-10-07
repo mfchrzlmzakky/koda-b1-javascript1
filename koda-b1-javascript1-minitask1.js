@@ -23,6 +23,3 @@ console.log(typeof r === "undefined");
 console.log(typeof r === "null");
 console.log(typeof r === "object");
 console.log(typeof r === "array");
-
-const age = 30;
-console.log(age instanceof number);
