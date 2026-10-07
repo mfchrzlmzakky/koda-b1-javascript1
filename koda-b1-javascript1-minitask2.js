@@ -25,3 +25,6 @@ const num = {
   second: [0, 1, 16],
 };
 console.log(num.first[1] + num.second[2]);
+
+const { first, second: kedua } = num;
+console.log(`Array pertama = ${first} & Array kedua = ${kedua}`);
