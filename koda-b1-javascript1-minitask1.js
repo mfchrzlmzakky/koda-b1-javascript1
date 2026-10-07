@@ -9,7 +9,7 @@ if (typeof r === "number") {
   console.log("Luas lingkaran = " + luas);
   console.log("Keliling lingkaran = " + keliling);
 } else {
-  console.log("Radius harus number");
+  console.log("Jari-jari harus number");
 }
 
 console.log(typeof r);
